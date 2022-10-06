@@ -7,6 +7,9 @@
     <link href="styles/base.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat&effect=anaglyph" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Silkscreen" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <!-- Setup interactive scripting -->
+    <script src="scripts/main.js" defer></script>
     <!-- Define site metadata -->
     <title>My Digital Garden</title>
     <meta name="author" content="Florian Karydes" />
@@ -30,7 +33,10 @@
       <br/>
       <img src="images/base/retrowave-palmtree.svg" alt="Retro-Wave Palm Tree Artwork" />
       <br/><br/><br/>
-      <h2>About Me</h2>
+      <h2 id="AboutMe"> 
+        <a href="#AboutMe" ><span class="material-symbols-outlined">more_vert</span></a> 
+        About Me
+      </h2>
       <hr/>
         <h3>Work life</h3>
           <h4>Robotics & simulation at Humanitas Solutions</h4>
@@ -49,14 +55,30 @@
             </ol>
             <p>I'm now Lead Robotics Developer. Truth to be told, I only lead myself these days.</p>
           <h4>Web at BetterCents</h4>
-            <p>Soon, I might jump onto a new project web project, so I'm <a href="https://developer.mozilla.org/en-US/docs/Learn">learn web development</a> with Mozilla.
+            <p>Soon, I might jump onto a new project web project, so I'm <a href="https://developer.mozilla.org/en-US/docs/Learn">learn web development</a> with Mozilla.</p>
+      <br/>
+      <br/>
+      <h2 id="ActiveLearning"> 
+        <a href="#ActiveLearning" ><span class="material-symbols-outlined">more_vert</span></a> 
+        Active Learning
+      </h2>
+      <hr/>
+      <h3>Create a JavaScript button</h3>
+        <p>The button bellow use JavaScript to change this page title.</p>
+        <button>Change title</button>
+      <h3>Marking up a letter</h3>
+        <p>In this <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Marking_up_a_letter" title="Marking up a letter">HTML exercise</a>, I created a <a href="pages/letter.html" title="">HTML-formatted letter</a>.</p>
+
+
+
+        
+      <br/>
       <br/>
       <br/>
       <hr/>
       <p class="footer font-effect-anaglyph">Copyright &copy; 2022 Florian Karydes</p>
       <br/>
       <br/>
-      <button>Change title</button>
-      <script src="scripts/main.js"></script>
+      
   </body>
 </html>
