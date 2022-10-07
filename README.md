@@ -1,6 +1,6 @@
 # My First Website
 
-My first website. Nothing to add there ...
+This is [my first website](https://floriankarydes.github.io/my-first-website/). I'm having fun so far :smile:
 
 ## License
 
