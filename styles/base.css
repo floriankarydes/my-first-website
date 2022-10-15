@@ -19,10 +19,6 @@ img {
   margin: 0 auto;
 }
 
-.aligncenter {
-  text-align: center;
-}
-
 h1 {
   color: #50fa7b;
   font-size: 60px;
@@ -30,22 +26,26 @@ h1 {
   font-family: "Silkscreen";
 }
 
-.subtitle {
+h1 + p { /* Subtitle */
   color: #6272a4;
   font-size: 24px;
   text-align: center;
 }
 
-.footer {
+footer {
   color: #6272a4;
   font-size: 12px;
   text-align: center;
+  border-top: 3px solid #44475a;
+  padding: 5px;
 }
 
 
 h2 {
   color: #bd93f9;
   font-size: 24px;
+  border-bottom: 3px solid #44475a;
+  padding: 5px;
 }
 
 h3 {
@@ -56,6 +56,17 @@ h4 {
   color: #f1fa8c;
 }
 
-a {
+a:link {
   color: #ff79c6;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #8be9fd;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8be9fd;
+  text-decoration: none;
 }

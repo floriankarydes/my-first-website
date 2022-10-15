@@ -1,0 +1,9 @@
+body {
+  background-color: violet;
+}
+
+@media (min-width: 1000px) {
+  body {
+    background-color: lavender;
+  }
+}
