@@ -1,51 +1,60 @@
 html {
-  background-color: #282a36;
+  background: linear-gradient(0deg, #0f1015 0%, #282a36 30%);
+  background-attachment: fixed;
   color: #f8f8f2;
   font-size: 14px; /* px means "pixels": the base font size is now 10 pixels high */
   font-family: "Montserrat", sans-serif; /* this should be the rest of the output you got from Google Fonts */
 }
 
 body {
-  width: 600px;
-  margin: 20px auto;
-  padding: 0px 20px 20px 20px;
+  width: 720px;
+  margin: auto;
+  padding: 1em;
   /* border: 5px solid #44475a; */
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
-h1 {
-  color: #50fa7b;
-  font-size: 60px;
-  text-align: center;
-  font-family: "Silkscreen";
-}
-
-h1 + p { /* Subtitle */
+header {
   color: #6272a4;
-  font-size: 24px;
+  font-size: 2em;
   text-align: center;
 }
 
 footer {
   color: #6272a4;
-  font-size: 12px;
+  font-size: 0.8em;
   text-align: center;
-  border-top: 3px solid #44475a;
-  padding: 5px;
+  /* border-top: 3px solid #44475a; */
+  padding: 1em;
 }
 
+.section-box {
+  background-color: #44475a;
+  border-radius: 1em;
+  margin: 2em;
+  padding: 0.3em 2em 1em;
+}
+
+.title-image {
+  max-width: 100%;
+  height: auto;
+  /* display: block; */
+  margin: 2em;
+  /* margin-top: 4em;
+  margin-bottom: 4em; */
+}
+
+h1 {
+  color: #50fa7b;
+  font-size: 2em;
+  text-align: center;
+  font-family: "Silkscreen";
+}
 
 h2 {
   color: #bd93f9;
-  font-size: 24px;
-  border-bottom: 3px solid #44475a;
-  padding: 5px;
+  font-size: 2em;
+  border-bottom: 2px solid #6272a4;
+  padding-bottom: 0.3em;
 }
 
 h3 {
